@@ -32,7 +32,7 @@
     function ToBuyController(ShoppingListCheckOffService) {
 
 var buyItem=this;
-        
+
         buyItem.items=ShoppingListCheckOffService.getItems();
 
         buyItem.removeItem=function (itemIndex) {
